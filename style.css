@@ -7,8 +7,12 @@
 }
 
 :root {
-    --primary-color: #00feba;
-    --secondary-color: #5b548a;
+    /* --primary-color: #00feba;
+    --secondary-color: #5b548a; */
+    
+    --primary-color: rgb(62, 2, 62);
+    --secondary-color: rgb(3, 1, 60);
+    --font-color: #3a8498;
 }
 
 #icon {
@@ -24,7 +28,7 @@ body {
     max-width: 470px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     /* background: linear-gradient(135deg, #00feba, #5b548a); */
-    color: #fff;
+    color: var(--font-color);
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
