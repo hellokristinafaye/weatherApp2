@@ -8,6 +8,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
+
 // dark/light mode code 
 var icon = document.getElementById("icon");
 
@@ -20,6 +21,7 @@ icon.onclick = function () {
         
     }
 }
+// end dark/light mode code
 
 // so the return button works inside the input box
 document.addEventListener("keydown", event => {
