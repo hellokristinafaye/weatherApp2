@@ -12,6 +12,7 @@
     --font-color: #fff;  
     --search-background: #ebfffc;
     --search-font-color: #555;
+        /* transition: .75s; */
 }
 
 .dark-theme {
@@ -31,6 +32,7 @@ body {
     background: #222;
 }
 .card {
+    transition: .5s;
     width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
