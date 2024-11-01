@@ -5,6 +5,12 @@
     box-sizing: border-box;  
     font-size: 18px;  
 }
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+}
 body {
     background: #222;
 }
