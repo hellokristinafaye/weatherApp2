@@ -7,9 +7,12 @@
 }
 
 :root {
-    /* --primary-color: #00feba;
-    --secondary-color: #5b548a; */
-    
+    --primary-color: #00feba;
+    --secondary-color: #5b548a;
+    --font-color: #fff;  
+}
+
+.dark-theme {
     --primary-color: rgb(62, 2, 62);
     --secondary-color: rgb(3, 1, 60);
     --font-color: #3a8498;
