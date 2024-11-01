@@ -52,7 +52,7 @@ async function checkWeather(city) {
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
-        document.querySelector(".wind").innerHTML = data.wind.speed + " kmgt/h";
+        document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
         
         // weather icon 
         // here we use a conditional statement to decide which icon to display. We have a collection of images, most of which are named here.  we access the weather API object (assigned to the variable "data")and dot notation.  Then we check which one of these it matches.  The assets folder was based on the API's options directly, so we know it's gonna be one of them.  And then each option leverages the global variable weatherIcon, which allows us access to that spot on the page (via its class on the HTML side). It accesses the src attribute and then sets that to one of the filepaths of the icons. 
