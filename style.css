@@ -10,12 +10,16 @@
     --primary-color: #00feba;
     --secondary-color: #5b548a;
     --font-color: #fff;  
+    --search-background: #ebfffc;
+    --search-font-color: #555;
 }
 
 .dark-theme {
     --primary-color: rgb(62, 2, 62);
     --secondary-color: rgb(3, 1, 60);
     --font-color: #3a8498;
+    --search-background: #979d9c;
+    --search-font-color: #272828;
 }
 
 #icon {
@@ -46,8 +50,8 @@ body {
 .search input { 
     border: 0;
     outline: 0;
-    background: #ebfffc;
-    color: #555;
+    background: var(--search-background);
+    color: var(--search-font-color);
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
@@ -58,7 +62,7 @@ body {
 .search button {
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: var(--search-background);
     border-radius: 50%;
     width: 60px;
     height: 60px;
