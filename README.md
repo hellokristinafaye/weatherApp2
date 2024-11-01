@@ -32,6 +32,8 @@ I would also like to add click-in functionality to the input box that would high
 
 Oh and I would like to add clearing the input box once the search is successful.
 
+Perhaps saving to local storage so your most recent search still displays after refreshing/closing.
+
 ## Design Evolution:
 
 Testing the CSS variables with colors I know by name.
