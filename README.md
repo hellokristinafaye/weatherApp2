@@ -51,3 +51,7 @@ Settled on a color palette for dark mode, including a font color that's lower co
 Lower contrast error message.
 
 ![1730439538473](image/README/1730439538473.png)
+
+Used variables to darken the search input font, and background colors of the input bar and the button. 
+
+![1730440280260](image/README/1730440280260.png)
