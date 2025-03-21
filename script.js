@@ -13,7 +13,9 @@ const weatherIcon = document.querySelector(".weather-icon");
 var icon = document.getElementById("icon");
 
 icon.onclick = function () {
+    // I believe .toggle() actually switches the class list content?? 
     document.body.classList.toggle("dark-theme");
+    console.log(document.body.classList)
     if (document.body.classList.contains("dark-theme")) {
         icon.src = "icons/sun.png";
     } else {
