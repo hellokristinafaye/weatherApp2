@@ -16,6 +16,8 @@ icon.onclick = function () {
     // I believe .toggle() actually switches the class list content?? 
     document.body.classList.toggle("dark-theme");
     console.log(document.body.classList)
+
+    // this conditional statement just changes the display of the button based on the above classList changes
     if (document.body.classList.contains("dark-theme")) {
         icon.src = "icons/sun.png";
     } else {
